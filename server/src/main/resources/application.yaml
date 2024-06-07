@@ -1,0 +1,21 @@
+ktor:
+    development: true
+    application:
+        modules:
+            - br.com.ams.amsmarmitakm.ApplicationKt.module
+    deployment:
+        port: 8080
+jwt:
+  audience: "http://0.0.0.0:8080/comedores/"
+  isuer: "http://0.0.0.0:8080/"
+  realm: "ktor sample app"
+  secret:
+
+PASSWORD: ""
+
+db:
+  mongo:
+    user:
+    password:
+    database:
+      name:
